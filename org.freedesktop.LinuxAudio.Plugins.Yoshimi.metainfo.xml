@@ -9,6 +9,7 @@
     <url type="homepage">https://yoshimi.github.io/</url>
     <update_contact>hub_AT_figuiere.net</update_contact>
     <releases>
+        <release version="2.0" date="2021-03-01" />
         <release version="1.7.4" date="2021-01-05" />
         <release version="1.7.3" date="2020-10-29" />
         <release version="1.7.2" date="2020-08-17" />
