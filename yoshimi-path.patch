@@ -4,14 +4,14 @@ index d81131ba..c9cfc66b 100644
 +++ b/src/Misc/Bank.cpp
 @@ -1444,9 +1444,9 @@ bool Bank::parseBanksFile(XMLwrapper *xml)
      string bankdirs[] = {
-         localDir + "yoshimi/banks",
+         foundLocal + "yoshimi/banks",
          "/usr/share/yoshimi/banks",
 -        "/usr/local/share/yoshimi/banks",
 +        "/app/extensions/Plugins/Yoshimi/share/yoshimi/banks",
          "/usr/share/zynaddsubfx/banks",
 -        "/usr/local/share/zynaddsubfx/banks",
 +        "/app/extensions/Plugins/ZynFusion/share/zynaddsubfx/banks",
-         localDir + "zynaddsubfx/banks",
+         foundLocal + "zynaddsubfx/banks",
          extendLocalPath("/banks"),
          "end"
 diff --git a/src/Misc/Config.cpp b/src/Misc/Config.cpp
