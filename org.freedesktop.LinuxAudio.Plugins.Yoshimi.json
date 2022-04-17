@@ -29,10 +29,8 @@
                 "--enable-static"
             ],
             "build-options": {
-                "env": {
-                    "CFLAGS": "-fPIC",
-                    "CXXFLAGS": "-fPIC"
-                }
+                "cflags": "-fPIC",
+                "cxxflags": "-fPIC"
             },
             "cleanup": [
                 "/bin",
@@ -66,9 +64,7 @@
                 "*.a"
             ],
             "build-options": {
-                "env": {
-                    "CFLAGS": "-fPIC"
-                }
+                "cflags": "-fPIC"
             },
             "config-opts": [
                 "--disable-shared"
