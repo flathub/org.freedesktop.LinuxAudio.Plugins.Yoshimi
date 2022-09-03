@@ -2,10 +2,10 @@
     "id": "org.freedesktop.LinuxAudio.Plugins.Yoshimi",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
     "runtime-version": "stable",
-    "sdk": "org.freedesktop.Sdk//21.08",
+    "sdk": "org.freedesktop.Sdk//22.08",
     "build-extension": true,
     "appstream-compose": false,
-    "branch": "21.08",
+    "branch": "22.08",
     "build-options": {
         "prefix": "/app/extensions/Plugins/Yoshimi",
         "prepend-pkg-config-path": "/app/extensions/Plugins/Yoshimi/lib/pkgconfig",
@@ -77,7 +77,6 @@
         },
         "shared-modules/linux-audio/lv2.json",
         "shared-modules/linux-audio/fftw3f-static.json",
-        "shared-modules/linux-audio/jack2.json",
         {
             "name": "yoshimi",
             "buildsystem": "cmake-ninja",
