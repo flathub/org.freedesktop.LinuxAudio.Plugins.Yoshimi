@@ -113,8 +113,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Yoshimi/yoshimi/archive/2.2.3.tar.gz",
-                    "sha256": "9e4f4b8834bb6ebaa5f408fb275c66a680cfd7b5b8716c4b3a6dea06b2ac1ed0"
+                    "url": "https://github.com/Yoshimi/yoshimi/archive/2.3.0.tar.gz",
+                    "sha256": "167c3f300a3513407f5ed61b1104a79552bfc574f4a6dbf5bb713f2456a834f9"
                 },
                 {
                     "type": "patch",
