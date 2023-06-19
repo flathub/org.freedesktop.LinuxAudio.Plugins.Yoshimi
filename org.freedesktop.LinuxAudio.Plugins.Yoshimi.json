@@ -113,8 +113,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Yoshimi/yoshimi/archive/2.3.0.tar.gz",
-                    "sha256": "167c3f300a3513407f5ed61b1104a79552bfc574f4a6dbf5bb713f2456a834f9"
+                    "url": "https://github.com/Yoshimi/yoshimi/archive/2.3.0.2.tar.gz",
+                    "sha256": "2710c0fdea108b1aad2d60aef3694f0655b1420ff8e99739358f3d0c37f4c6ca",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 5290,
+                        "url-template": "https://github.com/Yoshimi/yoshimi/archive/$version.tar.gz"
+                    }
                 },
                 {
                     "type": "patch",
