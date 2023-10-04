@@ -9,6 +9,19 @@
   <url type="homepage">https://yoshimi.github.io/</url>
   <update_contact>hub_AT_figuiere.net</update_contact>
   <releases>
+    <release version="2.3.1" date="2023-10-02">
+      <description>
+        <ul>
+          <li>BugFix: Command line prompt position not working.</li>
+          <li>BugFix: CLI not enabling scales but seeming to do so.</li>
+          <li>Add CLI warning when scales not enabled but scale action attempted.</li>
+          <li>Improved some CLI failure messages.</li>
+          <li>Added detail to CLI scales messages.</li>
+          <li>Updated docs.</li>
+          <li>Updated examples.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.3.0.3" date="2023-08-03"/>
     <release version="2.3.0.2" date="2023-06-19"/>
     <release version="2.3.0" date="2023-05-29">
