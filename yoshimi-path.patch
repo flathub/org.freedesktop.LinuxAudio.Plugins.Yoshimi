@@ -1,8 +1,8 @@
 diff --git a/src/Misc/Bank.cpp b/src/Misc/Bank.cpp
-index f6d87f9..2d79e6b 100644
+index ae1be36..91d78ee 100644
 --- a/src/Misc/Bank.cpp
 +++ b/src/Misc/Bank.cpp
-@@ -1532,9 +1532,9 @@ bool Bank::establishBanks(optional<string> bankFile)
+@@ -1580,9 +1580,9 @@ bool Bank::establishBanks(optional<string> bankFile)
      string bankdirs[] = {
          foundLocal + "yoshimi/banks",
          "/usr/share/yoshimi/banks",
@@ -15,15 +15,15 @@ index f6d87f9..2d79e6b 100644
          extendLocalPath("/banks"),
          "@end"
 diff --git a/src/Misc/Config.cpp b/src/Misc/Config.cpp
-index 1bb5e43..3d92391 100644
+index c25ee3c..e2e4537 100644
 --- a/src/Misc/Config.cpp
 +++ b/src/Misc/Config.cpp
-@@ -723,7 +723,7 @@ void Config::defaultPresets()
-          * We shouldn't be setting these directly
-          */
-         "/usr/share/yoshimi/presets",
--        "/usr/local/share/yoshimi/presets",
-+        "/app/extensions/Plugins/Yoshimi/share/yoshimi/presets",
-         "@end"
-     };
-     int i = 0;
+@@ -1268,7 +1268,7 @@ void Config::defaultPresets()
+                                          * We shouldn't be setting these directly
+                                          */
+                                      ,string{"/usr/share/yoshimi/presets"}
+-                                     ,string{"/usr/local/share/yoshimi/presets"}
++                                     ,string{"/app/extensions/Plugins/Yoshimi/yoshimi/presets"}
+                                      };
+     int actual{0};
+     Log("Setup default preset directories...", _SYS_::LogNotSerious);
