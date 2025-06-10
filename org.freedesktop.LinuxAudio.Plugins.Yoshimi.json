@@ -111,8 +111,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Yoshimi/yoshimi/archive/2.3.3.3.tar.gz",
-                    "sha256": "10b70d6bf577de3f36883b0e066d5de0b7291d4e4de3dee3b56df68feaed9469",
+                    "url": "https://github.com/Yoshimi/yoshimi/archive/2.3.4.tar.gz",
+                    "sha256": "ef9f4b40827a759448c37939667242f67a3e8114d1e439719168a366060bdb88",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5290,
