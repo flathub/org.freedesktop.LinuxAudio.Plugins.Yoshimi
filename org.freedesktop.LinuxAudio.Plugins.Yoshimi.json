@@ -111,12 +111,12 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Yoshimi/yoshimi/archive/2.3.4.1.tar.gz",
-                    "sha256": "2ab49688c42038863a6e5807055d0911ac069ca1527afbbbb93eb50595820d40",
-                    "x-checker-data": {
+                    "url": "https://github.com/Yoshimi/yoshimi/archive/refs/tags/2.3.4.2.tar.gz",
+                    "sha256": "f5994486ea7b7a2412af7ebf9dbe6942519a2722342c5061eae4e95757c646db",
+                    "x-checker-datai-disabled": {
                         "type": "anitya",
                         "project-id": 5290,
-                        "url-template": "https://github.com/Yoshimi/yoshimi/archive/$version.tar.gz"
+                        "url-template": "https://github.com/Yoshimi/yoshimi/archive/refs/tags/$version.tar.gz"
                     }
                 },
                 {
