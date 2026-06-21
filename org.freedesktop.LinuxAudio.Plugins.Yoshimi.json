@@ -11,10 +11,6 @@
         "prepend-ld-library-path": "/app/extensions/Plugins/Yoshimi/lib"
     },
     "cleanup": [
-        "/bin/jack*",
-        "/bin/alsa*",
-        "/lib/libjack*",
-        "/lib/jack",
         "/lib/lv2"
     ],
     "modules": [
@@ -112,8 +108,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Yoshimi/yoshimi/archive/refs/tags/2.3.6.2.tar.gz",
-                    "sha256": "f04356cc1edfac6a3ac0ab5f8c0bff7adb963ae619b46728415d11c4fddb3b5c",
+                    "url": "https://github.com/Yoshimi/yoshimi/archive/refs/tags/2.3.6.4.tar.gz",
+                    "sha256": "dd6757574df41f4d1297e549fef6a565e62aa7fc42a8fc24641d56bdbe4018f4",
                     "x-checker-data-disabled": {
                         "type": "anitya",
                         "project-id": 5290,
