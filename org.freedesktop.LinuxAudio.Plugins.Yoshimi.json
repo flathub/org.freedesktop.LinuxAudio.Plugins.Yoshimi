@@ -108,8 +108,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Yoshimi/yoshimi/archive/refs/tags/2.3.6.4.tar.gz",
-                    "sha256": "dd6757574df41f4d1297e549fef6a565e62aa7fc42a8fc24641d56bdbe4018f4",
+                    "url": "https://github.com/Yoshimi/yoshimi/archive/refs/tags/2.3.6.5.tar.gz",
+                    "sha256": "7c87f23642ce35703cbbf31e8b4a781b6cd00efff8b565eaccfdd082e8c6ac47",
                     "x-checker-data-disabled": {
                         "type": "anitya",
                         "project-id": 5290,
